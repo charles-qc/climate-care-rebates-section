@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url("fonts/Avenir-Medium-09.ttf") format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir-Medium";
+}
+
+/* Rebates Wrapper */
+.rebates-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #af0000; /* will be inherited by child elements */
+    color: white; /* will be inherited by child elements */
+}
+
+/* Rebates container */
+.rebates-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2.5% 0;
+}
+
+/* Rebates section */
+.rebate{
+    padding: 2% 0;
+    width: 50%;
+}
+
+/* Rebate CTA headline */
+.rebates-cta>h2{
+    padding: 5% 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Rebate section text */
+.rebate>p{
+    text-align: center;
+    padding: 2.5% 0;
+}
+
+/* Name of district */
+.district{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+/* Rebate amount */
+.rebate-amount{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+/* Rebate type */
+.rebate-type{
+    font-size: 1rem;
+}
+
+
+/* CSS Media Queries */
+@media only screen and (max-width: 1440px){
+    /* Rebates Wrapper */
+    .rebates-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Rebates container */
+    .rebates-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 5% 0;
+    }
+    /* Rebate section */
+    .rebate{
+        padding: 2% 0;
+        width: 50%;
+    }
+    /* Rebate CTA headline */
+    .rebates-cta>h2{
+        padding: 10% 0;
+        font-size: 3rem;
+    }
+    /* Rebate section text */
+    .rebate>p{
+        text-align: center;
+        padding: 2.5% 0;
+    }
+    /* Name of district */
+    .district{
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+    /* Rebate amount */
+    .rebate-amount{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    /* Rebate type */
+    .rebate-type{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    /* Rebates section headline */
+    .rebates-cta>h2{
+        font-size: 2.5rem;
+    }
+    /* Name of district */
+    .district{
+        font-size: 1.25rem;
+    }
+    /* Rebate amount */
+    .rebate-amount{
+        font-size: 2.5rem;
+    }
+    /* Rebate type */
+    .rebate-type{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 880px){
+    /* Rebates section headline */
+    .rebates-cta>h2{
+        font-size: 2rem;
+    }
+    /* Name of district */
+    .district{
+        font-size: 1rem;
+    }
+    /* Rebate amount */
+    .rebate-amount{
+        font-size: 2rem;
+    }
+    /* Rebate type */
+    .rebate-type{
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    /* Rebates container */
+    .rebates-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Rebates section headline */
+    .rebates-cta>h2{
+        padding: 5% 0;
+    }
+    /* Rebate section */
+    .rebate{
+        width: 100%;
+    }
+    /* Name of district */
+    .district{
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+    /* rebate amount */
+    .rebate-amount{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    /* Rebate type */
+    .rebate-type{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+    /* Rebates section headline */
+    .rebates-cta>h2 {
+        font-size: 1.5rem;
+    }
+    /* Name of district */
+    .district{
+        font-size: 1.25rem;
+    }
+    /* Rebate type */
+    .rebate-type{
+        font-size: .75rem;
+    }
+}
